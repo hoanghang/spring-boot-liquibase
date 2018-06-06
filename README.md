@@ -18,7 +18,8 @@ Using liquibase 3.4.1
     spring.liquibase.enabled=true
     spring.liquibase.change-log=classpath:changelog/db.changelog-master.xml
 
-4. Create file "db.changelog-customer-add-0.0.1.xml" (resource/changelog/db.changelog-customer-add-0.0.1.xml)
+4. Create file => update DB 
+Ex: "db.changelog-customer-add-0.0.1.xml" (resource/changelog/db.changelog-customer-add-0.0.1.xml)
 
 Liquibase support XML, YAML, JSON format. 
 Document https://www.liquibase.org/documentation/changes/insert.html
