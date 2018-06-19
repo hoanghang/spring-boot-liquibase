@@ -69,6 +69,12 @@ public class CustomerController {
     public String login(@RequestParam(value="name", defaultValue="World") String name) {
         return "login _ hotfix.";
     }
+
+    @RequestMapping("/login")
+    @ResponseBody
+    public String delete(@RequestParam(value="name", defaultValue="World") String name) {
+        return "delete customer.";
+    }
 }
 
 
