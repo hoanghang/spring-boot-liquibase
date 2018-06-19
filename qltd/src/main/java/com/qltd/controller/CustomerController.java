@@ -56,6 +56,12 @@ public class CustomerController {
     public String getUser(@RequestParam(value="name", defaultValue="World") String name) {
         return "Welcome to RestTemplate Example.";
     }
+
+    @RequestMapping("/user")
+    @ResponseBody
+    public String getRole(@RequestParam(value="name", defaultValue="World") String name) {
+        return "Welcome to RestTemplate Example.";
+    }
 }
 
 
