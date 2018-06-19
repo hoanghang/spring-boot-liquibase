@@ -67,7 +67,7 @@ public class CustomerController {
     @RequestMapping("/login")
     @ResponseBody
     public String login(@RequestParam(value="name", defaultValue="World") String name) {
-        return "hotfix.";
+        return "login _ hotfix.";
     }
 }
 
